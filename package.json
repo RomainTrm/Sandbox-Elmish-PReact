@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "preact": "^10.28.4",
-    "react-fast-compare": "^3.2.2"
+    "react-fast-compare": "^3.2.2",
+    "ts-pattern": "^5.9.0",
+    "vitest": "^4.1.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.3",

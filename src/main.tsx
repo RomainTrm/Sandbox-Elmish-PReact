@@ -1,5 +1,5 @@
 import { render } from 'preact'
 import './index.css'
-import { App } from './app.tsx'
+import { Counter } from './counter'
 
-render(<App />, document.getElementById('app')!)
+render(<Counter />, document.getElementById('app')!)

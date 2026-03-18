@@ -12,3 +12,9 @@ Initialize and run project:
 pnpm install
 pnpm dev
 ```
+
+Run tests watch:  
+
+```bash
+pnpm vitest
+```
