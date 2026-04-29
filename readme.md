@@ -8,6 +8,7 @@ Experimental implementation of the [Elm architecture](https://guide.elm-lang.org
 - [customer-v1](./src/customer-v1/): Introduce side effects with `Effect`.
 - [customer-v2](./src/customer-v2/): Extract a subcomponent with `Command` wrapping and `Intent` pattern, all `Effect` are raised by the main component.
 - [customer-v3](./src/customer-v3/): Alternative implementation of v2 with `Effect` raised by the subcomponent.
+- [customer-v4](./src/customer-v4/): Re-implement the v3 with the [Translator pattern](https://medium.com/@alex.lew/the-translator-pattern-a-model-for-child-to-parent-communication-in-elm-f4bfaa1d3f98) as an alternative to the Intent pattern.
 
 ## Additional Resources
 
